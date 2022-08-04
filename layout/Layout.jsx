@@ -2,6 +2,7 @@ import Header from './header/Header';
 import Footer from './footer/Footer';
 
 const Layout = ({ children }) => {
+	console.log(children);
 	return (
 		<div id='main-wrapper'>
 			<Header />

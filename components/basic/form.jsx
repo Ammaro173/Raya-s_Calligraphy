@@ -11,7 +11,7 @@ const PageForm = () => {
 							<h1 className='title font-bold'>Form</h1>
 							<h6 className='subtitle'>
 								Here you can check Demos we created based on WrapKit. Its quite easy to Create your own dream website &amp; dashboard in
-								No-time.
+								No-time1.
 							</h6>
 						</Col>
 					</Row>

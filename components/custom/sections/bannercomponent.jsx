@@ -2,22 +2,14 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import Image from 'next/image';
-import herobanner from '../../../assets/images/staticslider/slider/hero-banner.jpg';
+// import herobanner from '../../../assets/images/staticslider/slider/hero-banner.jpg';
+import herobanner2 from '../../../assets/images/staticslider/slider/assorted-colored-brushes2.jpg';
+
 const BannerComponent = () => {
 	return (
 		<div>
-			<div className='spacer'>
-				<Container>
-					<Row className='justify-content-center'>
-						<Col md='7' className='text-center'>
-							<h1 className='title font-bold'>Banners</h1>
-							<h6 className='subtitle'>
-								Here you can check Demos we created based on WrapKit. Its quite easy to Create your own dream website &amp; dashboard in
-								No-time.
-							</h6>
-						</Col>
-					</Row>
-				</Container>
+			<div className='spacer' id='About'>
+				<br></br>
 			</div>
 			<div className='static-slider10'>
 				<Container>
@@ -34,7 +26,7 @@ const BannerComponent = () => {
 							</a>
 						</Col>
 						<Col md='6'>
-							<Image src={herobanner} alt='herobanner'></Image>
+							<Image src={herobanner2} alt='herobanner'></Image>
 						</Col>
 					</Row>
 				</Container>
@@ -44,7 +36,7 @@ const BannerComponent = () => {
 					<Row className='justify-content-center'>
 						<Col md='8' className='align-self-center text-center'>
 							<h1 className='title'>
-								I’m Johanthan Doe, an <b className='font-bold'>Entreprenuer, Designer & Front-end Developer</b>, Making{' '}
+								I`m Johanthan Doe, an <b className='font-bold'>Entreprenuer, Designer & Front-end Developer</b>, Making{' '}
 							</h1>
 							<a className='btn btn-danger btn-md btn-arrow m-t-20' data-toggle='collapse' href=''>
 								<span>

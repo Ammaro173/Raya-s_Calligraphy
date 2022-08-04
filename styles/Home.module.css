@@ -119,3 +119,7 @@
     flex-direction: column;
   }
 }
+
+.coming-soon {
+  scroll-behavior: smooth;
+}
