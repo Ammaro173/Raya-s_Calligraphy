@@ -6,7 +6,7 @@ import img1 from '../../../assets/images/blog/blog-home/img3.jpg';
 import img2 from '../../../assets/images/blog/blog-home/img2.jpg';
 import img3 from '../../../assets/images/blog/blog-home/img1.jpg';
 
-const BlogComponent = () => {
+const MyProducts = () => {
 	return (
 		<div>
 			<div className='blog-home2 spacer'>
@@ -31,7 +31,7 @@ const BlogComponent = () => {
 								</div>
 								<h5 className='font-medium m-t-30'>
 									<a href='#' className='link'>
-										You should have eagle’s eye on new trends and techonogies
+										You should have eagle`s eye on new trends and techonogies
 									</a>
 								</h5>
 								<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
@@ -85,4 +85,4 @@ const BlogComponent = () => {
 	);
 };
 
-export default BlogComponent;
+export default MyProducts;

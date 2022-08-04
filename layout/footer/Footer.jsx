@@ -14,44 +14,37 @@ const Footer = () => {
 					</Col>
 					<Col lg='3' md='6' className='m-b-30'>
 						<h5 className='m-b-20'>Phone</h5>
-						<p>
-							Reception : +962 79 646 4931 <br />
-						</p>
+						Reception :
+						<a className='link' href='tel:+962 79 646 4931'>
+							+962 79 646 4931
+						</a>{' '}
+						<br />
 					</Col>
 					<Col lg='3' md='6' className='m-b-30'>
 						<h5 className='m-b-20'>Email</h5>
 						<p>
-							Office :
-							<Link href='https://www.instagram.com/rayas.calligraphy/'>
-								<a className='link'> Raya</a>
-							</Link>
+							Shoot Me an Email :
+							<br />
+							<a className='link' href='mailto:rayaeaf2003@gmail.com?subject=subject text'>
+								rayaeaf2003@gmail.com
+							</a>
 							<br />
 						</p>
 					</Col>
 					<Col lg='3' md='6'>
 						<h5 className='m-b-20'>Social</h5>
 						<div className='round-social light'>
-							<Link href='#'>
+							<Link href='https://www.facebook.com/raya.abulfeilat'>
 								<a className='link'>
 									<i className='fa fa-facebook'></i>
 								</a>
 							</Link>
-							<Link href='#'>
+							<Link href='https://twitter.com/gr8raya'>
 								<a className='link'>
 									<i className='fa fa-twitter'></i>
 								</a>
 							</Link>
-							<Link href='#'>
-								<a className='link'>
-									<i className='fa fa-google-plus'></i>
-								</a>
-							</Link>
-							<Link href='#'>
-								<a className='link'>
-									<i className='fa fa-youtube-play'></i>
-								</a>
-							</Link>
-							<Link href='#'>
+							<Link href='https://www.instagram.com/gr8raya/'>
 								<a className='link'>
 									<i className='fa fa-instagram'></i>
 								</a>
@@ -65,19 +58,8 @@ const Footer = () => {
 							<div className='d-flex font-14'>
 								<div className='m-t-10 m-b-10 copyright'>
 									All Rights Reserved by{' '}
-									<Link href='https://www.instagram.com/rayas.calligraphy/'>
+									<Link href='https://www.instagram.com/gr8raya/'>
 										<a className='link'>Raya</a>
-									</Link>
-								</div>
-								<div className='links ml-auto m-t-10 m-b-10'>
-									<Link href='#'>
-										<a className='p-10 p-l-0'>Terms of Use</a>
-									</Link>
-									<Link href='#'>
-										<a className='p-10'>Legal Disclaimer</a>
-									</Link>
-									<Link href='#'>
-										<a className='p-10'>Privacy Policy</a>
 									</Link>
 								</div>
 							</div>

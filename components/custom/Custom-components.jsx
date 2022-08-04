@@ -4,7 +4,7 @@ import React from 'react';
 import Banner2 from '../banner/Banner2';
 
 // sections for this page
-import HeaderComponent from './sections/headercomponent';
+
 import BannerComponent from './sections/bannercomponent';
 import FormBannerComponent from './sections/formbannercomponent';
 import FeatureComponent from './sections/featurecomponent';
@@ -21,17 +21,17 @@ const CustomComponents = () => {
 	return (
 		<div>
 			<Banner2 />
-			<HeaderComponent />
+
 			<BannerComponent />
-			<FormBannerComponent />
-			<FeatureComponent />
+			{/* <FormBannerComponent /> */}
+			{/* <FeatureComponent /> */}
 			<PortfolioComponent />
-			<PricingComponent />
-			<TeamComponent />
-			<TestimonialComponent />
-			<BlogComponent />
-			<C2aComponent />
-			<ContactComponent />
+			{/* <PricingComponent /> */}
+			{/* <TeamComponent /> */}
+			{/* <TestimonialComponent /> */}
+			{/* <BlogComponent /> */}
+			{/* <C2aComponent /> */}
+			{/* <ContactComponent /> */}
 			<CallToAction />
 		</div>
 	);
