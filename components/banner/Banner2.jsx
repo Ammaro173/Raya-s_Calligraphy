@@ -15,7 +15,6 @@ const Banner2 = () => {
 						<h3 className='subtitle'>
 							An ambitious, multi-talented lady who can turn a stone 🗿 into diamond by her creativity💎
 							<br />
-							<br />
 							Scroll to see my artworks or press the buttons below
 						</h3>
 						<a

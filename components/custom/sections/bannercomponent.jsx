@@ -15,34 +15,18 @@ const BannerComponent = () => {
 				<Container>
 					<Row className=''>
 						<Col md='6' className='align-self-center '>
-							<span className='label label-rounded label-inverse'>Creating Brands</span>
-							<h1 className='title'>ONE BILLON People Use Facebook</h1>
+							{/* <span className='label label-rounded label-inverse'>Creating Brands</span> */}
+							<h1 className='title'>A Breif Summary</h1>
 							<h6 className='subtitle op-8'>
-								Pellentesque vehicula eros a dui pretium ornare. Phasellus congue vel quam nec luctus.In accumsan at eros in dignissim. Cras
-								sodales nisi nonn accumsan.
+								Investing my Calligraphic skills on making Creative and High Quality, You can Create your Custom Made Wooden Slices. Sneek
+								peek to see it, hope you like them.
 							</h6>
-							<a className='btn btn-light btn-rounded btn-md m-t-20' data-toggle='collapse' href=''>
-								<span>Do you Need Help?</span>
+							<a className='btn btn-light btn-rounded btn-md m-t-20' data-toggle='collapse' href='/#products'>
+								<span>Lets go</span>
 							</a>
 						</Col>
 						<Col md='6'>
 							<Image src={herobanner2} alt='herobanner'></Image>
-						</Col>
-					</Row>
-				</Container>
-			</div>
-			<div className='static-slider3'>
-				<Container>
-					<Row className='justify-content-center'>
-						<Col md='8' className='align-self-center text-center'>
-							<h1 className='title'>
-								I`m Johanthan Doe, an <b className='font-bold'>Entreprenuer, Designer & Front-end Developer</b>, Making{' '}
-							</h1>
-							<a className='btn btn-danger btn-md btn-arrow m-t-20' data-toggle='collapse' href=''>
-								<span>
-									Checkout My Work <i className='ti-arrow-right'></i>
-								</span>
-							</a>
 						</Col>
 					</Row>
 				</Container>
