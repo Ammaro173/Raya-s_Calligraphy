@@ -13,11 +13,11 @@ const Footer = () => {
 						<p>Amman, Khalda</p>
 					</Col>
 					<Col lg='3' md='6' className='m-b-30'>
-						<h5 className='m-b-20'>Phone</h5>
+						<h5 className='m-b-20 '>Phone</h5>
 						Reception :
-						<a className='link' href='tel:+962 79 646 4931'>
+						<a className='link ' href='tel:+962 79 646 4931'>
 							+962 79 646 4931
-						</a>{' '}
+						</a>
 						<br />
 					</Col>
 					<Col lg='3' md='6' className='m-b-30'>

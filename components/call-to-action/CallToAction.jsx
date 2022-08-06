@@ -15,6 +15,7 @@ import img11 from '../../assets/coming_soon/img11.JPG';
 import img12 from '../../assets/coming_soon/img12.PNG';
 
 function renderComingSoon() {
+	let instLink = 'https://www.instagram.com/rayas.calligraphy/';
 	// let x = [1];
 	// let coming_soon = [
 	// 	{
@@ -32,50 +33,49 @@ function renderComingSoon() {
 				<Col lg='4' md='6'>
 					<Card className=''>
 						<a href='#'>
-							<Image className='card-img-top' src={img1} alt='pic' />
+							<Image className='card-img-top' src={img1} alt='Manal-with-Frane' />
 						</a>
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle`s eye on new trends and techonogies
-							</a>
-						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
-						</a>
-					</Card>
-				</Col>
-				<Col lg='4' md='6'>
-					<Card>
-						<a href='#'>
-							<Image className='card-img-top' src={img2} alt='pic' />
-						</a>
-
-						<h5 className='font-medium'>
-							<a href='#' className='link'>
-								New Seminar on Newest Food Recipe from World`s Best
-							</a>
-						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<h5 className='m-l-5 font-medium m-t-10'>Make your Own frame and designs</h5>
+						<p className=' m-l-5 m-t-10'>You can choose a name and a design</p>
+						<a
+							href={instLink}
+							className='text-center linking text-themecolor m-t-10' //text-themecolor
+						>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
-							<Image className='card-img-top' src={img3} alt='wrappixel kit' />
+						<a href={instLink}>
+							<Image className='card-img-top' src={img2} alt='Seela' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle`s eye on new trends and techonogies
+						<h5 className='m-l-5 font-medium m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy using stitching
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className=' m-l-5 m-t-10'>You can choose a name and a design</p>
+						<a href={instLink} className='linking text-center text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
+						</a>
+					</Card>
+				</Col>
+				<Col lg='4' md='6'>
+					<Card>
+						<a href={instLink}>
+							<Image className='card-img-top' src={img3} alt='World-Map-Stitches' />
+						</a>
+
+						<h5 className='m-l-5 font-medium m-t-10'>
+							<a href={instLink} className='link'>
+								Drawing using stitching
+							</a>
+						</h5>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design</p>
+						<a href={instLink} className='linking text-center text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
@@ -83,52 +83,52 @@ function renderComingSoon() {
 			<Row>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img4} alt='wrappixel kit' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphied Stickers
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design</p>
+						<a href={instLink} className='linking text-center text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img5} alt='wrappixel kit' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy on T-Shirt
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design, different sizes will be available</p>
+						<a href={instLink} className='text-center linking text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img6} alt='wrappixel kit' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy on wooden crafts
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>Different designs will be posted in the instagram page</p>
+						<a href={instLink} className='text-center linking text-themecolor m-l-5 m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
@@ -136,51 +136,52 @@ function renderComingSoon() {
 			<Row>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img7} alt='wrappixel kit' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy on T-Shirt
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design, different sizes will be available</p>
+						<a href={instLink} className='text-center linking text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img8} alt='wrappixel kit' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy on Hoodies
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design, different sizes will be available</p>
+						<a href={instLink} className='text-center linking text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img9} alt='wrappixel kit' />
 						</a>
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Wooden Crafts
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>Different designs will be posted in the instagram page</p>
+						<a href={instLink} className='text-center linking text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
@@ -188,51 +189,52 @@ function renderComingSoon() {
 			<Row>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img10} alt='wrappixel kit' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy on Mugs & Cups
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design, different colors will be available</p>
+						<a href={instLink} className='text-center linking text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img11} alt='wrappixel kit' />
 						</a>
 
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy on Rubber mobile covers
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design</p>
+						<a href={instLink} className='text-center linking text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
 				<Col lg='4' md='6'>
 					<Card>
-						<a href='#'>
+						<a href={instLink}>
 							<Image className='card-img-top' src={img12} alt='wrappixel kit' />
 						</a>
-						<h5 className='font-medium m-t-30'>
-							<a href='#' className='link'>
-								You should have eagle’s eye on new trends and techonogies
+
+						<h5 className='font-medium m-l-5 m-t-10'>
+							<a href={instLink} className='link'>
+								Calligraphy on Plastic mobile covers
 							</a>
 						</h5>
-						<p className='m-t-20'>Business Park, Opp. Corns Sam Restaurant, New Yoark, US</p>
-						<a href='#' className='linking text-themecolor m-t-10'>
-							Learn More <i className='ti-arrow-right'></i>
+						<p className='m-l-5 m-t-10'>You can choose a name and a design</p>
+						<a href={instLink} className='text-center linking text-themecolor m-t-10'>
+							DM me <i className='ti-arrow-right'></i>
 						</a>
 					</Card>
 				</Col>
@@ -249,7 +251,7 @@ const CallToAction = () => {
 					<Col>
 						<div className='d-flex align-items-center'>
 							<div>
-								<h2 className='title text-white font-weight-bold'>Desgins coming soon</h2>
+								<h2 className='title text-white font-weight-bold'>Desgins coming soon , DM me for availablity</h2>
 								<div>
 									<div className='blog-home2 spacer p-2 '>
 										<Container>
